@@ -1,3 +1,10 @@
+/*Users Profile*/
+.johnrich {
+  border-radius: 50%;
+  width: 300px;
+  height: 250px;
+}
+
 /*Landing Page*/
 .centered {
   position: absolute;
@@ -6,19 +13,22 @@
   transform: translate(-50%, -50%);
   color: #f44336;
   background-color: white;
-  font-size: 50px;
-  border-radius: 5px;
+  font-size: 40px;
+  border-radius: 50px;
+  width: 320px;
+  height: 60px;
+  text-align: center;
 }
 .landingPageImage {
-  height: 550px;
+  height: 500px;
   width: 100%;
 }
 
 .button3 {
   background-color: #f44336;
   color: white;
-  width: 100px;
-  height: 50px;
+  width: 120px;
+  height: 40px;
   border-color: #f44336;
 }
 
@@ -218,6 +228,7 @@ nav ul li {
   margin: 30px 0;
   border-radius: 30px;
   transition: background 0.5s;
+  text-align: center;
 }
 .btn:hover {
   background: #563434;
